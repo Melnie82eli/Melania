@@ -1,0 +1,37 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+boby{
+  background: black;
+}
+a{
+  display: block;
+  background: #D8BFD8;
+  color: #7B68EE;
+  font-size: 20px;
+  text-align: center;
+  width:200px;
+  padding: 5px;
+  text-decoration: none;
+  margin:10px;
+  border:2px solid rgb(178, 31, 214);
+  border-radius: 5px;
+  box-shadow: 0 0 10px gray;
+}
+a:hover{
+  
+  display: block;
+  background: burlywood;
+  color: rgb(163, 9, 163);
+  font-size: 20px;
+  text-align: center;
+  width:300px;
+  padding: 5px;
+  text-decoration: none;
+  margin:10px;
+  border:2px p;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(7, 118, 182);
+  transition: 1sg all ease;
+}
