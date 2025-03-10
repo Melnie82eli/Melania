@@ -81,18 +81,23 @@ div{
     top: 250px;
     left: 250px;
     background: purple;
+    opacity: 0.5;
 }
 .caja2{
     position: absolute;
     top: 275px;
     left: 275px;
     background: yellow;
+    opacity: 0.5;
+
 }
 .caja3{
     position: absolute;
     top: 298px;
     left: 298px;
-    background: gray;
+    background: blue;
+    opacity: 0.5;
+
     
 }
 .caja4{
@@ -100,5 +105,7 @@ div{
     top: 320px;
     left: 320px;
     background: green;
+    opacity: 0.5;
+
     
 }
