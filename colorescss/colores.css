@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 10px;
+    text-align: center;
+}
+div{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: rgb(101, 1, 129);
+    margin: 10px;
+    color:white;
+    padding: 15px;
+}
+
+.ingles{
+    background: blueviolet;
+}
+.rgb{
+    background: rgb(10 100 0);
+}
+.rgb2{
+    background: rgb(100% 20% 50%);
+}
+.rgb3{
+    background: rgba(100% 20% 50% 0.5);
+
+}
+.hexa{
+    background: #74aa0e;
+}
+.hexa2{
+    background: #f0f;
+}
+.gradiente{
+    background: rgb(255, 255, 255);
+
+}
+.degradado{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.radial{
+    background: rgb(2,0,36);
+background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(155,65,165,1) 35%, rgba(0,212,255,1) 100%);
+}
+.hcl{
+    background: rgb(2,0,36);
+background: linear-gradient(166deg, rgba(2,0,36,1) 0%, rgba(208,213,45,1) 35%, rgba(0,212,255,1) 100%);
+}
+.mix{
+    background: rgb(2,0,36);
+background: linear-gradient(302deg, rgba(2,0,36,1) 0%, rgba(24,232,221,0.7271721511590676) 53%, rgba(146,174,109,1) 67%, rgba(0,212,255,1) 100%);
+}
+.relativo{
+    background: rgb(2,0,36);
+background: linear-gradient(302deg, rgba(2,0,36,1) 0%, rgba(232,24,232,1) 35%, rgba(0,212,255,1) 100%);
+}
+.HWB{
+    background: rgb(2,0,36);
+background: linear-gradient(302deg, rgba(2,0,36,1) 0%, rgba(232,152,24,0.7271721511590676) 35%, rgba(0,212,255,1) 100%);
+}
+    

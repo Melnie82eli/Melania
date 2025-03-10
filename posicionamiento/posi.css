@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+div{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background: salmon;
+    border: 2px solid yellow;
+    margin: 10px;
+    padding: 5px;
+    color: black;
+}
+.estatico{
+    position: static;
+    top: 200px;
+    left: 200px;
+    background: green;
+}
+.relativo{
+    position: relative;
+    top: -100px;
+    left: 250px;
+    background: skyblue;
+}
+.abs{
+    position: absolute;
+    top: -100px;
+    left: 250px;
+    background: beige;
+}
+.abs1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: purple;
+    z-index: -5;
+    margin: 0px;
+    padding: 0px;
+}
+.abs2{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: grey;
+    opacity: 0.5;
+}
+.abs3{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background: yellowgreen;
+    margin: 0px;
+    padding: 0px ;
+}
+.abs4{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background: pink;
+}
+.fijo{
+    position: fixed;
+    top: 250px;
+    right: 0px;
+    background: paleturquoise;
+}
+.pegajoso1{
+    position: sticky;
+    top: 250px;
+    right: 200px;
+    background: seagreen;
+}
+
+.caja1{
+    position: absolute;
+    top: 250px;
+    left: 250px;
+    background: purple;
+}
+.caja2{
+    position: absolute;
+    top: 275px;
+    left: 275px;
+    background: yellow;
+}
+.caja3{
+    position: absolute;
+    top: 298px;
+    left: 298px;
+    background: gray;
+    
+}
+.caja4{
+    position: absolute;
+    top: 320px;
+    left: 320px;
+    background: green;
+    
+}

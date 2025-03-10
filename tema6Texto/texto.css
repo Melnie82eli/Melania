@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+@font-face {
+    font-family: 'Mine';
+    src: url('fonts/Minecraft.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    
+  }
+  
+  @font-face {
+    font-family: 'Mine2';
+    src: url('fonts/Minercraftory.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+  @font-face {
+    font-family: 'mil';
+    src: url('fonts/Pure\ Milk.otf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+  @font-face {
+    font-family: 'rancho';
+    src: url('fonts/The\ New\ Rancho.otf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+
+  }
+  @font-face {
+    font-family: 'star';
+    src: url('fonts/Starborn.otf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+
+  }
+
+
+
+span{
+font-family: "arial";
+font-size: 20px;
+font-style: italic;
+font-weight: 700;
+}
+.t1{
+    font-family: "Algerial  Normal";
+    font-size: 550px;
+    font-style: oblique;
+    font-weight: 700; 
+}
+.t2{
+    font-family: "Bauhaus 93 Normal";
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 700; 
+}
+.t3{
+    font-family: "Bodoni";
+    font-size: 40px;
+    font-style: inherit;
+    font-weight: 700; 
+}
+.t4{
+    font-family: "Broadway";
+    font-size: 90px;
+    font-style: italic;
+    font-weight: 700; 
+}
+.t5{
+    font-family: "Calibri";
+    font-size: 60px;
+    font-style: italic;
+    font-weight: 700; 
+}
+.d1{
+    text-decoration: 2px solid overline gold;
+}
+.d2{
+    text-decoration: 7px double underline red ;
+}
+.d3{
+    text-decoration: 5px dotted line-through green;
+}
+
+.texto{
+    text-shadow: 0 0 5px blue ;
+}
+.p5{
+    font-family: "Mine";
+    font-size: 300px;
+    font-weight: 200; 
+}
+.p6{
+    font-family: "Mine2";
+    font-size: 300px;
+    font-weight: 200; 
+}
+.p7{
+    font-family: "mil";
+    font-size: 300px;
+    font-weight: 200; 
+}
+.p8{
+    font-family: "rancho";
+    font-size: 300px;
+    font-weight: 200; 
+}
+.p9{
+    font-family: "star";
+    font-size: 300px;
+    font-weight: 200; 
+}
+
+.l1{
+    letter-spacing:  25px ;
+    text-align: center;
+    
+}
+.l2{
+    line-height: 10px ;
+    color: blue;
+    
+}
+.l12{
+    line-height: 100px ;
+    color: rgb(145, 145, 13);
+    
+}
+.l3{
+    text-indent: 100px; 
+    color: aliceblue;
+}
+.l4{
+    word-spacing: 100px;
+    color: seagreen;
+     
+}
+.l5{
+    white-space: pre-line;
+    color: green;
+     
+}
+.l6{
+    tab-size: 30px;
+    color: rgb(71, 18, 120);
+    
+}
+.l7{
+    text-align: center;
+   color: rgb(174, 62, 21);
+     
+}
+.l8{
+    vertical-align: 500px text-top;
+     
+}
