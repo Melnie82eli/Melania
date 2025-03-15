@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+}
+.container{
+    width: 400px;
+    height: 150px;
+    margin: 20px auto;
+    background: skyblue;
+    padding: 5px;
+    border: 2px solid black;
+    display: flex;
+}
+.container div{
+    width: 30px;
+    height: 30px;
+    background: blue;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+}
+div{
+    width: 30px;
+    height: 30px;
+    background: skyblue;
+    margin: 2px;
+    padding: 5px;
+    border: 1px solid black;
+}
+.container2{
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    background: blue;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid black;
+    flex-direction: column;
+}
+.container3{
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    background: blue;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.container4{
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    background: blue;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid black;
+    flex-direction: row;
+    display: flex;
+}
+.f5{
+    
+    flex-direction: row-reverse;
+    
+    
+}
+.f6{
+    flex-wrap: nowrap;
+}
+.f7{
+    flex-wrap: wrap;
+}
+.f8{
+    justify-content: center;
+}
+.f9{
+    justify-content: flex-start;
+}
+.f10{
+    justify-content: flex-end;
+}
+.f11{
+    justify-content: space-around;
+}
+.f12{
+    justify-content: space-between;
+}
+.f13{
+align-items: center;
+}
+.f14{
+    align-items: flex-start;
+}
+.f15{
+align-items: flex-end;
+}
+.f16{
+align-items: stretch;
+ }
+.f17{
+ align-items: baseline;
+}
+.f18{
+    justify-content: center;
+    align-items: center;
+   }
+
+
+
