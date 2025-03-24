@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+@font-face {
+    font-family: 'Mine';
+    src: url('..//01miprimeravez.html/fonts/Minecraft.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    
+  }
+
+.titulo{
+
+    font-family: 'Mine';
+}
